@@ -11,5 +11,5 @@ set_target_properties(format
 target_link_libraries(format 
 	PRIVATE 
 	fmt::fmt 
-	fmt::fmt-header-only
+	#fmt::fmt-header-only
 )
